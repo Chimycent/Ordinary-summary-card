@@ -1,0 +1,101 @@
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    
+}
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    background: white;
+}
+
+.photo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 20rem;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: hsl(228, 45%, 44%);
+}
+
+p{
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+    padding: 0px;
+}
+
+#Plan{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.imagelogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.annual{display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+.change{display: flex;
+    font-weight: 500;
+    color: hsl(228, 45%, 44%);
+    flex-direction: row;
+    align-items: center;
+    text-decoration: underline;
+
+}
+.whitebutton{
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(228, 45%, 44%);
+    display: flex;
+    flex-direction: row;
+    border: none;
+    font-size: 12px;
+}
+
+.bluebutton{
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    color: hsl(228, 45%, 44%);
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+.button{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+
+.attribution{
+    display: flex;
+    align-items: center;
+    
+}
