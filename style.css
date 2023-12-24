@@ -5,18 +5,20 @@ body{
     background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 14px;
-    
 }
 .card{
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 20rem;
     background: white;
 }
-
+.fit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .photo{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -88,14 +90,14 @@ p{
 }
 .button{
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
-
 .attribution{
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    margin-top: 20px;
 }
